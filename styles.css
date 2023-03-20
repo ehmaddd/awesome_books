@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin: auto 40%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form button {
+    width: 25%;
+}
+
