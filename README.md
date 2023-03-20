@@ -114,6 +114,12 @@ VS Code
 - Twitter: [@ehmaddd_pk](https://twitter.com/ehmaddd_pk)
 - LinkedIn: [ahmad-saeed-734174148](https://www.linkedin.com/in/ahmad-saeed-734174148/)
 
+👤 **Spencer Okyere**
+
+- GitHub: [@skabeo](https://github.com/skabeo)
+- Twitter: [@black_okyere](https://twitter.com/black_okyere)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/okyere-spencer-9b602623b)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
