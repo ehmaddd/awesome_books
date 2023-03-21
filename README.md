@@ -21,7 +21,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Global Summit 2015] <a name="about-project">About</a>
+# 📖 [Awesome Books] <a name="about-project">About</a>
 
 This website is about the book library having the list of all books. This website contains the ADD button to add new books in the collection, REMOVE button to remove any book from the system and also a display of all book names alongwith the names of authors.
 
