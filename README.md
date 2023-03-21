@@ -130,7 +130,7 @@ VS Code
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Detailed Document](https://github.com/ehmaddd/mobile-first-portfolio/edit/main/README.md).
+Feel free to check the [Detailed Document](https://github.com/ehmaddd/awesome_books/blob/main/README.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
