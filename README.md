@@ -21,7 +21,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="about-project">About</a>
+# 📖 <a name="about-project">About</a>
 
 This website is about the book library having the list of all books. This website contains the ADD button to add new books in the collection, REMOVE button to remove any book from the system and also a display of all book names alongwith the names of authors.
 
@@ -51,7 +51,7 @@ The core concepts of HTML, CSS and Javascript were implemented. Especially Javas
 - **[Summarized]**
 - **[Organized]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- ## 🚀 Live Demo
 
