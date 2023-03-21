@@ -55,7 +55,7 @@ The core concepts of HTML, CSS and Javascript were implemented. Especially Javas
 
 <!-- ## 🚀 Live Demo
 
-- [Live Demo Link](https://ehmaddd.github.io/online-conference/)
+- [Live Demo Link](https://ehmaddd.github.io/awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -77,7 +77,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+git clone git@github.com:ehmaddd/awesome_books.git
 
 ### Usage
 
@@ -124,8 +124,22 @@ VS Code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Online Booking]**
-- [ ] **[Updates]**
+- [ ] **[Navigation]**
+- [ ] **[Colourful Pages]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [Detailed Document](https://github.com/ehmaddd/mobile-first-portfolio/edit/main/README.md).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+The beginning is always difficult, and once the flow begins, then no one can stop it. So do support this first step towards excellence.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
