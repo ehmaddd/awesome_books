@@ -1,6 +1,6 @@
 class Bookshelf {
   constructor() {
-    this.books = JSON.parse(localStorage.getItem('books')) || [{title: 'title', author: 'author'}, {title: 'title2', author: 'author2'}];
+    this.books = JSON.parse(localStorage.getItem('books')) || [{ title: 'title', author: 'author' }, { title: 'title2', author: 'author2' }];
   }
 
   addBook(title, author) {
@@ -16,7 +16,7 @@ class Bookshelf {
   render() {
     const bookList = document.getElementById('book-list');
     bookList.innerHTML = '';
-    for (let i = 0; i < this.books.length; i++) {
+    for (let i = 0; i < this.books.length; i += 1) {
       const book = this.books[i];
       const li = document.createElement('li');
       li.textContent = `${book.title} by ${book.author}`;
