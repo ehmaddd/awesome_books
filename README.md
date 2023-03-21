@@ -2,17 +2,14 @@
 
 <div align="center">
 
-  <h1><b>AWESOME BOOKS</b></h1>
-
 </div>
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 Awesome Books](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -21,7 +18,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Global Summit 2015] <a name="about-project">About</a>
+# 📖 <a name="about-project">Awesome Books</a>
 
 This website is about the book library having the list of all books. This website contains the ADD button to add new books in the collection, REMOVE button to remove any book from the system and also a display of all book names alongwith the names of authors.
 
@@ -51,11 +48,11 @@ The core concepts of HTML, CSS and Javascript were implemented. Especially Javas
 - **[Summarized]**
 - **[Organized]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- ## 🚀 Live Demo
 
-- [Live Demo Link](https://ehmaddd.github.io/online-conference/)
+- [Live Demo Link](https://ehmaddd.github.io/awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -77,7 +74,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+git clone git@github.com:ehmaddd/awesome_books.git
 
 ### Usage
 
@@ -124,8 +121,16 @@ VS Code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Online Booking]**
-- [ ] **[Updates]**
+- [ ] **[Navigation]**
+- [ ] **[Colourful Pages]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [Detailed Document](https://github.com/ehmaddd/mobile-first-portfolio/edit/main/README.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
