@@ -2,13 +2,11 @@
 
 <div align="center">
 
-  <h1><b>AWESOME BOOKS</b></h1>
-
 </div>
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 Awesome Books](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
