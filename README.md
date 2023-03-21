@@ -143,12 +143,6 @@ The beginning is always difficult, and once the flow begins, then no one can sto
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
-
-The beginning is always difficult, and once the flow begins, then no one can stop it. So do support this first step towards excellence.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank microverse for proving me such a golden opportunity to create these classical projects.
