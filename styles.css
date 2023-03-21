@@ -1,41 +1,66 @@
-body {
+.title {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-form button {
-  width: 25%;
-}
-
-.booklist-hr {
-  width: 100%;
-}
-
-.book-list h3 {
-  color: red;
+.title2 {
   text-align: center;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  margin: 0;
 }
 
 ul {
-  list-style-type: none;
-  margin-left: 0;
+  list-style: none;
   padding: 0;
 }
 
-.book-catalog {
+#book-list {
+  max-width: 40%;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+#book-form {
+  width: 20%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  text-align: left;
-  margin: 0 auto;
+  gap: 10px;
 }
 
-main {
+input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button {
   width: fit-content;
-  margin: 0 auto;
+  margin-left: auto;
+  border: 3px solid black;
 }
 
+.line {
+  border: 1px solid black;
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  padding: 7px 10px;
+}
+
+input {
+  padding: 5px;
+  border: 3px solid black;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: black;
+}
