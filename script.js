@@ -1,10 +1,10 @@
 class Bookshelf {
   constructor() {
-    this.books = JSON.parse(localStorage.getItem('books'));
+    this.books = JSON.parse(localStorage.getItem('books')) || [{title: 'title', author: 'author'}, {title: 'title2', author: 'author2'}];
   }
 
-  addBook(book) {
-    this.books.push(book);
+  addBook(title, author) {
+    this.books.push({ title, author });
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 
@@ -46,7 +46,7 @@ document.getElementById('add-book').addEventListener('click', (event) => {
   const title = titleInput.value;
   const author = authorInput.value;
   if (title !== '' && author !== '') {
-    myBookshelf.addBook(new Book(title, author));
+    myBookshelf.addBook(title, author);
     myBookshelf.render();
     titleInput.value = '';
     authorInput.value = '';
