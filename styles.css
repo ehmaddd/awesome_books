@@ -8,6 +8,7 @@ body {
   padding: 0;
   list-style: none;
   margin: 0;
+  border: 2px solid black;
 }
 
 #date-time {
@@ -24,10 +25,14 @@ nav ul {
   list-style: none;
 }
 
-
 .nav-links {
   display: flex;
   gap: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
 }
 
 p {
@@ -40,10 +45,6 @@ p {
 
 .deleteButton {
   margin-left: auto;
-}
-
-#book-list {
-  border: 2px solid black;
 }
 
 #book-list li {
