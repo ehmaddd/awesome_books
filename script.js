@@ -1,30 +1,30 @@
-class Bookshelf {
+class BookShelf {
   constructor() {
-    this.books = JSON.parse(localStorage.getItem('books')) || [{ title: 'title', author: 'author' }, { title: 'title2', author: 'author2' }];
+    this.books = JSON.parse(localStorage.getItem('book')) || [{ title: 'title 1', author: 'author 2' }, { title: 'title 1', author: 'author 2' }];
   }
 
-  addBook(title, author) {
+  add(title, author) {
     this.books.push({ title, author });
-    localStorage.setItem('books', JSON.stringify(this.books));
+    localStorage.setItem('book', JSON.stringify(this.books));
   }
 
-  removeBook(book) {
+  remove(book) {
     this.books = this.books.filter((b) => b !== book);
-    localStorage.setItem('books', JSON.stringify(this.books));
+    localStorage.setItem('book', JSON.stringify(this.books));
   }
 
   render() {
-    const bookList = document.getElementById('book-list');
+    const bookList = document.querySelector('#book-list');
     bookList.innerHTML = '';
     for (let i = 0; i < this.books.length; i += 1) {
       const book = this.books[i];
       const li = document.createElement('li');
-      li.textContent = `${book.title} by ${book.author}`;
+      li.innerHTML = `${book.title} by ${book.author}`;
       const deleteButton = document.createElement('button');
-      deleteButton.classList.add('delete');
       deleteButton.textContent = 'Remove';
+      deleteButton.classList.add('deleteButton');
       deleteButton.addEventListener('click', () => {
-        this.removeBook(book);
+        this.remove(book);
         this.render();
       });
       li.appendChild(deleteButton);
@@ -37,20 +37,53 @@ class Bookshelf {
   }
 }
 
-const myBookshelf = new Bookshelf();
-
-document.getElementById('add-book').addEventListener('click', (event) => {
+const myBookShelf = new BookShelf();
+const addBook = document.querySelector('#add-book');
+addBook.addEventListener('click', (event) => {
   event.preventDefault();
-  const titleInput = document.getElementById('title');
-  const authorInput = document.getElementById('author');
+  const titleInput = document.querySelector('#title');
+  const authorInput = document.querySelector('#author');
   const title = titleInput.value;
   const author = authorInput.value;
   if (title !== '' && author !== '') {
-    myBookshelf.addBook(title, author);
-    myBookshelf.render();
+    myBookShelf.add(title, author);
+    myBookShelf.render();
     titleInput.value = '';
     authorInput.value = '';
   }
 });
 
-myBookshelf.render();
+myBookShelf.render();
+
+const sections = document.getElementsByTagName('section');
+for (let i = 1; i < sections.length; i += 1) {
+  sections[i].style.display = 'none';
+}
+
+const navLinks = document.querySelectorAll('nav a');
+navLinks[0].style.color = 'blue';
+
+for (let i = 0; i < navLinks.length; i += 1) {
+  navLinks[i].addEventListener('click', function update(event) {
+    event.preventDefault();
+    for (let j = 0; j < sections.length; j += 1) {
+      sections[j].style.display = 'none';
+    }
+    const target = this.getAttribute('href').substr(1);
+    document.getElementById(target).style.display = 'block';
+
+    for (let k = 0; k < navLinks.length; k += 1) {
+      navLinks[k].style.color = 'black';
+    }
+    this.style.color = 'blue';
+  });
+}
+
+sections[0].style.display = 'block';
+
+function displayDateTime() {
+  const currentDate = new Date();
+  const dateTimeString = currentDate.toLocaleString();
+  document.querySelector('#date-time').innerHTML = dateTimeString;
+}
+setInterval(displayDateTime, 1000);

@@ -1,64 +1,111 @@
-.title {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
 
-.title2 {
-  text-align: center;
-  margin-top: 20px;
-}
-
-h1,
-h2 {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 #book-list {
-  max-width: 40%;
-  margin: 0 auto;
-  border: 3px solid black;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  border: 2px solid black;
 }
 
-#book-form {
-  width: 20%;
-  margin: 0 auto;
+#date-time {
+  margin-left: auto;
+  width: fit-content;
+}
+
+nav ul {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  border: 2px solid black;
+  padding: 3px 10px;
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
   gap: 10px;
 }
 
-input {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  border: 3px solid black;
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.deleteButton {
+  margin-left: auto;
+}
+
+#book-list li {
+  display: flex;
+  padding: 3px 10px;
+}
+
+.footer {
+  border: 2px solid black;
+  padding: 3px 10px;
+  margin-top: 16px;
 }
 
 button {
-  width: fit-content;
-  margin-left: auto;
-  border: 3px solid black;
+  font-family: inherit;
+  border: 2px solid black;
 }
 
-.line {
-  border: 1px solid black;
-  width: 10%;
+input {
   margin: 0 auto;
-  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 2px solid black;
 }
 
-li {
+#book-form {
+  width: 50%;
+  margin: 0 auto;
   display: flex;
-  padding: 7px 10px;
+  flex-direction: column;
 }
 
 input::placeholder {
   font-weight: bold;
   color: black;
+}
+
+#add-book {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.contact-container {
+  max-width: 48%;
+  margin: 0 auto;
+}
+
+.active {
+  color: blue;
+}
+
+.line {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 98vh;
+  max-width: 48%;
+  margin: 0 auto;
 }
