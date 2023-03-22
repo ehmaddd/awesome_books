@@ -61,7 +61,7 @@ for (let i = 1; i < sections.length; i += 1) {
 }
 
 const navLinks = document.querySelectorAll('nav a');
-navLinks[0].classList.add('active');
+navLinks[0].style.color = 'blue';
 
 for (let i = 0; i < navLinks.length; i += 1) {
   navLinks[i].addEventListener('click', function update(event) {
@@ -73,9 +73,9 @@ for (let i = 0; i < navLinks.length; i += 1) {
     document.getElementById(target).style.display = 'block';
 
     for (let k = 0; k < navLinks.length; k += 1) {
-      navLinks[k].classList.remove('active');
+      navLinks[k].style.color = 'black';
     }
-    this.classList.add('active');
+    this.style.color = 'blue';
   });
 }
 
